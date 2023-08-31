@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjectionFixed" Version="5.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="prometheus-net" Version="8.0.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
+    <PackageReference Include="serilog.Enrichers.Environment" Version="2.2.0" />
+    <PackageReference Include="serilog.Exceptions" Version="8.4.0" />
+    <PackageReference Include="serilog.expressions" Version="3.4.1" />
+    <PackageReference Include="serilog.Settings.AppSettings" Version="2.2.2" />
+    <PackageReference Include="serilog.Settings.Configuration" Version="7.0.1" />
+    <PackageReference Include="serilog.sinks.Debug" Version="2.0.0" />
+    <PackageReference Include="serilog.sinks.Elasticsearch" Version="9.0.3" />
+    <PackageReference Include="serilog.sinks.Seq" Version="5.2.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
