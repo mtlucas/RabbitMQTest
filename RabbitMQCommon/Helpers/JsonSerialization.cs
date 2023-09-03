@@ -90,7 +90,6 @@ namespace RabbitMQCommon
                         }
                     }
                 }
-                //var fileContents = reader.ReadToEnd();
                 return jsonArray;
             }
             finally

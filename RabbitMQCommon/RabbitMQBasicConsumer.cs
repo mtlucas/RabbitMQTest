@@ -47,7 +47,6 @@ namespace RabbitMQConsumer
                             break;
                     }
                     headersString += "[ " + header.Key + ": " + headerValue + " ]";
-                    
                 }
                 Console.WriteLine(string.Concat("     Headers:      ", headersString));
             }
